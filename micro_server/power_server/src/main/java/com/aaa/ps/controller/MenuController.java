@@ -26,6 +26,8 @@ public class MenuController {
      */
     @DeleteMapping("deleteByPrimaryKey")
     public int deleteByPrimaryKey(Integer menuId){
+        // 测试分支：修改代码
+        System.out.println("测试分支");
         return menuService.deleteByPrimaryKey(menuId);
     }
 
